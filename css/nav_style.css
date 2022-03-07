@@ -1,0 +1,40 @@
+/*Flexbox for navigation*/
+nav ul {
+  background-color: #5e636e;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+
+/*Flexbox settingts for items*/
+nav ul li {
+  display: flex;
+  color: rgb(202, 202, 202);
+}
+
+nav,
+li a:link,
+a:visited {
+  color: #fff;
+}
+
+nav li a:hover {
+  padding: 0 0.75em 0 0.75em;
+  margin: 0 -0.75em 0 -0.75em;
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(204, 204, 204);
+}
+
+/* für Nav bar
+nav > a:hove,
+a.active {
+background-color: #fff;
+color:#fff;
+
+}
+
+*/

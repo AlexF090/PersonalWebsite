@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Gwendolyn&display=swa);
+@import url(https://fonts.googleapis.com/css2?family=Orbitron&display=swa);
+
 * {
   box-sizing: border-box;
 }
@@ -10,6 +13,31 @@ body {
   flex: display;
   width: 100%;
   background-color: rgb(99, 99, 99);
+}
+
+/*Title*/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-top: 1em;
+  color: rgb(255, 255, 255);
+  font-family: Gwendolyn;
+  letter-spacing: 0.2rem;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*nickname*/
+header h2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  font-family: Orbitron;
 }
 
 /*All sections included */
@@ -30,13 +58,4 @@ section {
 
 p {
   color: #fff;
-}
-
-footer {
-  display: flex;
-  background-color: #5e636e;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75vw;
-  padding: 1.5;
 }

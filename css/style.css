@@ -1,70 +1,14 @@
 @import url(Skeleton/normalize.css);
 @import url(Skeleton/skeleton.css);
-@import url(https://fonts.googleapis.com/css2?family=Gwendolyn&display=swa);
-@import url(https://fonts.googleapis.com/css2?family=Orbitron&display=swa);
-@import url(basic_style.css);
-
-
-/*Title*/
-header h1 {
-  margin-top: 1em;
-  display: flex;
-  font-size: 2.5rem;
-  color: rgb(255, 255, 255);
-  font-family: Gwendolyn;
-  letter-spacing: 0.2rem;
-  justify-content: center;
-}
-/*nickname*/
-header h2 {
-  color: #fff;
-  display: flex;
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
-  font-family: Orbitron;
-  justify-content: center;
-}
-
-.profile_img {
-  margin: auto;
-  width: 50vw !important;
-}
-/*Flexbox for navigation*/
-nav ul {
-  background-color: #5e636e;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-  column-gap: 1rem;
-  flex-wrap: wrap;
-  padding-top: 1rem;
-}
-
-/*Flexbox settingts for items*/
-nav ul li {
-  display: flex;
-  color: rgb(202, 202, 202);
-}
-
-nav,
-li a:link,
-a:visited {
-  color: #fff;
-}
-
-nav li a:hover {
-  padding: 0 0.75em 0 0.75em;
-  margin: 0 -0.75em 0 -0.75em;
-  border-radius: 3px;
-  color: rgb(0, 0, 0);
-  background-color: rgb(204, 204, 204);
-}
+@import "basic_style.css";
+@import "nav_style.css";
+@import "footer_style.css";
 
 .profile_img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 75vw;
+  width: 50vw !important;
 }
 
 article a:link {
@@ -76,35 +20,3 @@ article a:link {
   border: 1px solid;
   flex-direction: column;
 }
-
-.clnp {
-  display: flex;
-  padding: 1.5;
-  color: #000;
-  list-style-type: none;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.clnp li a:hover {
-  color: rgb(0, 0, 0);
-}
-
-.copyright {
-  display: flex;
-  padding: 1.5;
-  list-style-type: none;
-  justify-content: center;
-  column-gap: 1rem;
-  flex-wrap: wrap;
-}
-
-/* für Nav bar
-nav > a:hove,
-a.active {
-background-color: #fff;
-color:#fff;
-
-}
-
-*/
