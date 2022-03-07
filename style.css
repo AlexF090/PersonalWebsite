@@ -45,7 +45,7 @@ p {
 }
 
 /*All sections included */
-.smaller {
+main {
   display: flex;
   flex-direction: column;
   margin-left: auto;
