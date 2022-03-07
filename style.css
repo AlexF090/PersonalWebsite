@@ -137,3 +137,14 @@ footer {
   column-gap: 1rem;
   flex-wrap: wrap;
 }
+
+
+/* für Nav bar
+nav > a:hove,
+a.active {
+background-color: #fff;
+color:#fff;
+
+}
+
+*/
