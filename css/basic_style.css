@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 1rem;
-}
-
 body {
   flex: display;
   width: 100%;
@@ -31,15 +27,25 @@ header {
 h1 {
   margin-left: auto;
   margin-right: auto;
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 0.1em;
 }
 
 /*nickname*/
-header h2 {
+h2 {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.5rem;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  font-size: 1.17rem;
+  letter-spacing: 0.1em;
+}
+
+h4 {
+  font-size: 1rem;
   letter-spacing: 0.1em;
 }
 
@@ -60,5 +66,6 @@ section {
 }
 
 p {
+  font-size: 1;
   color: #fff;
 }

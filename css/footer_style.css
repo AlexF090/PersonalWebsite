@@ -8,7 +8,7 @@ footer {
   padding-top: 15;
 }
 
-.flnp {
+.footer__ul {
   display: flex;
   padding: 1.5;
   color: #000;
@@ -17,7 +17,7 @@ footer {
   flex-wrap: wrap;
 }
 
-.flnp li a:hover {
+.footer__ul p li a:hover {
   color: rgb(0, 0, 0);
 }
 
