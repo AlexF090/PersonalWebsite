@@ -22,22 +22,25 @@ header {
   justify-items: center;
   margin-top: 1em;
   color: rgb(255, 255, 255);
-  font-family: Gwendolyn;
+  font-family: Orbitron;
   letter-spacing: 0.2rem;
 }
+
+/*font-family: Gwendolyn;*/
 
 h1 {
   margin-left: auto;
   margin-right: auto;
+  font-size: 2.5rem;
+  letter-spacing: 0.1em;
 }
 
 /*nickname*/
 header h2 {
   margin-left: auto;
   margin-right: auto;
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1em;
-  font-family: Orbitron;
 }
 
 /*All sections included */
