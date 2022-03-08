@@ -1,5 +1,5 @@
-@import url(Skeleton/normalize.css);
-@import url(Skeleton/skeleton.css);
+@import "Skeleton/normalize.css";
+@import "Skeleton/skeleton.css)";
 @import "basic_style.css";
 @import "nav_style.css";
 @import "footer_style.css";
