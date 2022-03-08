@@ -1,18 +1,16 @@
 @import "Skeleton/normalize.css";
-@import "Skeleton/skeleton.css)";
+@import "Skeleton/skeleton.css";
 @import "basic_style.css";
 @import "nav_style.css";
 @import "footer_style.css";
+@import "article_style.css";
+@import "section_style.css";
 
 .profile_img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 50vw !important;
-}
-
-article a:link {
-  text-decoration: none;
 }
 
 .GitHub {
