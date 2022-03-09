@@ -1,10 +1,16 @@
+/* change default*/
 @import "Skeleton/normalize.css";
 @import "Skeleton/skeleton.css";
+
+/*On every site*/
 @import "basic_style.css";
 @import "nav_style.css";
 @import "footer_style.css";
 @import "article_style.css";
 @import "section_style.css";
+
+/*on Form site*/
+@import "form_style.css";
 
 .profile_img {
   display: flex;

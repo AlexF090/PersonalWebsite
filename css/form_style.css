@@ -1,0 +1,26 @@
+@import "./fonts.css";
+
+.form Label {
+  color: #fff;
+}
+
+.form input {
+  color: #000;
+  display: grid;
+}
+
+.form input:focus {
+  color: #fff;
+  display: grid;
+  background-color: #000;
+}
+
+.contact__ul {
+  color: #fff;
+  list-style: none;
+}
+
+input[type=submit] {
+  color: #000;
+  background-color: #fff;
+}

@@ -18,50 +18,96 @@
       <p>German(Ger)</p>
     </span>
 -->
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="about_me.html">AboutMe</a>
-          </li>
-          <li>
-            <a href="skills.html">Skills</a>
-          </li>
-          <li>
-            <a href="projects.html">Projects</a>
-          </li>
-          <li>
-            <a href="profiles.html">Profiles</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="nav">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about_me.html">AboutMe</a>
+        </li>
+        <li>
+          <a href="skills.html">Skills</a>
+        </li>
+        <li>
+          <a href="projects.html">Projects</a>
+        </li>
+        <li>
+          <a href="profiles.html">Profiles</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
     <main class="main">
-      <section id="contact">
+      <section id="main__section">
         <h3 class="h3">Contact</h3>
         <!--Contact-->
-        <ul>
+        <ul class="contact__ul">
           <li>✆</li>
-          <li>Phonenumber</li>
+          <li>Telephone number</li>
           <li>Mail</li>
           <li>WhatsApp</li>
           <li>Signal</li>
           <li>or send me a message via contact form</li>
         </ul>
       </section>
+      <section>
+        <p>Please fill out the contact form completely.</p>
+        <p>* = Mandatory information</p>
+        <form class="form">
+          <label for="username">Names *</label>
+          <input
+            name="username"
+            type="text"
+            id="username"
+            placeholder="Max Mustermann"
+            required
+          />
+          <label for="mail">Mail *</label>
+          <input
+            name="mail"
+            type="mail"
+            id="mail"
+            placeholder="Mail"
+            required
+          />
+          <label for="subject">Subject *</label>
+          <input
+            name="subject"
+            type="text"
+            id="subject"
+            placeholder="Subject"
+            required
+          />
+          <label for="message">Message *</label>
+          <input
+            name="message"
+            type="text"
+            id="message"
+            placeholder="Hello Alex,..."
+            required
+          />
+          <label for="submit"></label>
+          <input
+            name="submit"
+            type="submit"
+            id="submit"
+            value="Submit"
+            required
+          />
+        </form>
+      </section>
     </main>
-    <footer>
+
+    <footer class="footer">
       <ul class="footer__ul">
         <li><a href="">Form</a></li>
         <!--Contact-Form-->
         <li>|</li>
         <li><a href="legal_notice.html">Legal Notice</a></li>
-        <!--impressum-->
+        <!--Impressum-->
         <li>|</li>
         <li><a href="privacy_policy.html">Privacy Policy</a></li>
         <!--privacy policy-->

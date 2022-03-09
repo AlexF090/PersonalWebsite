@@ -1,5 +1,10 @@
 @import "./fonts.css";
 
+.nav {
+  position: sticky;
+  top: 0;
+}
+
 /*Flexbox for navigation*/
 nav ul {
   background-color: #5e636e;
@@ -11,19 +16,19 @@ nav ul {
   padding-top: 1rem;
 }
 
-/*Flexbox settingts for items*/
+/*Flexbox settings for items*/
 nav ul li {
   display: flex;
   color: rgb(202, 202, 202);
 }
 
-nav,
-li a:link,
-a:visited {
+.nav :link,
+.nav :visited {
   color: #fff;
+  text-decoration: none;
 }
 
-nav li a:hover {
+.nav a:hover {
   padding: 0 0.75em 0 0.75em;
   margin: 0 -0.75em 0 -0.75em;
   border-radius: 3px;
