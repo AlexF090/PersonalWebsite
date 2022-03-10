@@ -1,7 +1,8 @@
 @import "./fonts.css";
 
-.form Label {
+.form {
   color: #fff;
+  
 }
 
 .form input {

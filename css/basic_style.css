@@ -52,17 +52,7 @@ header {
   color: #fff;
 }
 
-/*All sections included */
-.main {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 75vw;
-  padding: 1.5em;
-  background-color: #1d1e20;
-  color: #fff;
-}
+
 
 p {
   font-size: 1rem;

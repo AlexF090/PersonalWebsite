@@ -6,6 +6,7 @@
 @import "basic_style.css";
 @import "nav_style.css";
 @import "footer_style.css";
+@import "main_style.css";
 @import "article_style.css";
 @import "section_style.css";
 
@@ -23,4 +24,8 @@
   display: flex;
   border: 1px solid;
   flex-direction: column;
+}
+
+.GitHub a {
+  display: inline;
 }
